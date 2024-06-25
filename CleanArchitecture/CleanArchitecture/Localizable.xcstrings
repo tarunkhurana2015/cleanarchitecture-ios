@@ -1,0 +1,73 @@
+{
+  "sourceLanguage" : "en-US",
+  "strings" : {
+    "Home" : {
+
+    },
+    "login_email" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email"
+          }
+        }
+      }
+    },
+    "login_password" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
+          }
+        }
+      }
+    },
+    "Profile" : {
+
+    },
+    "Search" : {
+
+    },
+    "user_signin" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign In"
+          }
+        }
+      }
+    },
+    "user_signup" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign Up"
+          }
+        }
+      }
+    },
+    "Video" : {
+
+    },
+    "welcome_message" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
