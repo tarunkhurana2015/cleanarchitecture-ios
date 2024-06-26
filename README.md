@@ -39,7 +39,8 @@ One of the important cases is the communication between the domain components an
 ## Layers
 The Clean Architecture divides a project into 3 layers:
 
-![Cleanarch_layers drawio](https://github.com/taruncopper/cleanarchitecture/assets/167800713/b6888942-b3a5-4cda-a503-cd8819ae15c9)
+![Cleanarch_layers drawio](https://github.com/tarunkhurana2015/cleanarchitecture-ios/assets/9640541/f21a185e-5c5c-4b89-829a-df8ac42248ca)
+
 
 1. **Domain Layer** - `(Business logic)` is the inner-most part of the onion (without dependencies to other layers, it is totally isolated). It contains `Entities(Business Models)`, `Use Cases`, and `Repository Interfaces`. This layer could be potentially reused within different projects. Such separation allows for not using the host app within the test target because no dependencies (also 3rd party) are needed — this makes the Domain Use Cases tests take just a few seconds. Note: Domain Layer should not include anything from other layers(e.g Presentation — UIKit or SwiftUI or Data Layer — Mapping Codable).
 2. **Presentation Layer** - contains `UI (UIViewControllers or SwiftUI Views)`. Views are coordinated by `ViewModels (Presenters)` which execute one or many Use Cases. Presentation Layer depends only on the `Domain Layer`.
@@ -47,7 +48,8 @@ The Clean Architecture divides a project into 3 layers:
 
 ## Dependency Graph
 
-![cleanArch_dataDepedency drawio](https://github.com/taruncopper/cleanarchitecture/assets/167800713/b58d47dd-f875-497c-aa38-3afb0828aed3)
+![cleanArch_dataDepedency drawio](https://github.com/tarunkhurana2015/cleanarchitecture-ios/assets/9640541/b134e585-adc4-45a8-96fe-c684fe914037)
+
 
 ### Data Flow
 1. `View`(UI) calls action from `Store` (Recucer).
@@ -124,7 +126,7 @@ A ->B->C means that module A which imports B will have access also to C
 
 ### Applying Modular Architecture on `demo project`
 
-[Demo App](https://github.com/taruncopper/cleanarchitecture.git) is a simple project to implement the User's `Sign Up` and `Sign In` modules uisng the JWT login. The server [authentication](https://github.com/taruncopper/authentication.git) is written in `Node.js` using `Express` and `Typescript`.
+[Demo App](https://github.com/tarunkhurana2015/cleanarchitecture.git) is a simple project to implement the User's `Sign Up` and `Sign In` modules uisng the JWT login. The server [authentication](https://github.com/tarunkhurana2015/authentication.git) is written in `Node.js` using `Express` and `Typescript`.
 
 <img width="213" alt="image" src="https://github.com/taruncopper/cleanarchitecture/assets/167800713/d78fedf5-c9fb-4df1-a304-3b3073fbcaf8">
 
