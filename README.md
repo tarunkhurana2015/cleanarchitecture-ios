@@ -21,7 +21,8 @@
 
 Clean architecture pattern emphasizes the sepration of concertns between different layers to create an application structure that is isolated, testable and easy to maintain.
 
-![Clean Architecture drawio (4)](https://github.com/taruncopper/cleanarchitecture/assets/167800713/462026e1-e37d-47ee-8f0a-5bd83d030bdb)
+![Clean Architecture drawio](https://github.com/tarunkhurana2015/cleanarchitecture-ios/assets/9640541/191e96d7-9ba0-4452-b435-2857fe9a6c8a)
+
 
 ## Getting Started
 In this propject we will use the `Modular`, `Clean Architecture`, `MVVM` and `The Composable Architecture` patterns.
