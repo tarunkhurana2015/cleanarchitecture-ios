@@ -22,12 +22,12 @@
 		<key>SearchDataTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>5</integer>
 		</dict>
 		<key>SearchDomainTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>6</integer>
 		</dict>
 		<key>SearchPresentationTests.xcscheme_^#shared#^_</key>
 		<dict>

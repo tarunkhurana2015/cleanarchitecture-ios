@@ -131,8 +131,10 @@
 			children = (
 				DD1030252BDEC8C000F93FB0 /* Core */,
 				DD13575B2BEDDCB30023583B /* Home */,
+				DD3473C92BEDE3FE0089E47B /* Profile */,
 				DD4F8D712BEDB92600CFAD39 /* Search */,
 				DD10301A2BDE079E00F93FB0 /* User */,
+				DD209AB52C19040900BDA312 /* Video */,
 				DD102FE32BDDF1C800F93FB0 /* CleanArchitecture.entitlements */,
 				DD10303F2BDF4A7900F93FB0 /* Info.plist */,
 				DD102FDD2BDDF1C700F93FB0 /* CleanArchitectureApp.swift */,
@@ -141,8 +143,6 @@
 				DD102FE12BDDF1C800F93FB0 /* Assets.xcassets */,
 				DD1030402BE000DB00F93FB0 /* Localizable.xcstrings */,
 				DD102FE42BDDF1C800F93FB0 /* Preview Content */,
-				DD3473C92BEDE3FE0089E47B /* Profile */,
-				DD209AB52C19040900BDA312 /* Video */,
 			);
 			path = CleanArchitecture;
 			sourceTree = "<group>";
