@@ -126,7 +126,7 @@ A ->B->C means that module A which imports B will have access also to C
 
 ### Applying Modular Architecture on `demo project`
 
-[Demo App](https://github.com/tarunkhurana2015/cleanarchitecture.git) is a simple project to implement the User's `Sign Up` and `Sign In` modules uisng the JWT login. The server [authentication](https://github.com/tarunkhurana2015/authentication.git) is written in `Node.js` using `Express` and `Typescript`.
+[Demo App](https://github.com/tarunkhurana2015/cleanarchitecture-ios.git) is a simple project to implement the User's `Sign Up` and `Sign In` modules uisng the JWT login. The server [authentication](https://github.com/tarunkhurana2015/authentication.git) is written in `Node.js` using `Express` and `Typescript`.
 
 <img width="213" alt="image" src="https://github.com/taruncopper/cleanarchitecture/assets/167800713/d78fedf5-c9fb-4df1-a304-3b3073fbcaf8">
 
